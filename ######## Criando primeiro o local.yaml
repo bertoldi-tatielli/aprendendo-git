@@ -1,0 +1,32 @@
+######## Criando primeiro o local
+Passo 1: Inicio
+git init > inicia o git no repositorio criando o arquivo .git na pasta
+
+Passo 2: Adiciona
+git add {path/arquivo} > adiciona um arquivo especifico
+git add {path/pasta/*} > adiciona todos os arquivos da pasta
+git add * > adiciona todos os arquivos do repositorio, ou seja da pasta que contem o .git
+
+opcional: Voltar ao passo 2:
+git restore {path/arquivo} | {path/pasta/*} | * 
+git reset {path/arquivo} | {path/pasta/*} | *
+
+Passo 3: Salva
+git commit --message="uma mensagem que descrve as alteracoes"
+git commit -m="mesma coisa mas como shorthand -m ao inves de -- message - uma mensagem que descrve as alteracoes"
+
+Passo 4: Verificacao
+git status > mostra o status de cada arquivo
+
+Passo 5: conectar com github
+git remote add origin {url do repositorio no git}
+
+Passo 6: enviar tudo ao github
+
+
+######## Copiando do github
+git clone {url do github} | Encontrase no site github
+
+E vai ao passo 2
+
+######## Tem mais coisas mas isso é 90% do git no dia dia
